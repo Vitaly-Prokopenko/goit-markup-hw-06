@@ -309,16 +309,17 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  transition: border-color, fill 250ms var(--timing-function);
+}
+
+.modal-icon-btn {
+  transition: fill 250ms var(--timing-function);
 }
 
 .modal-close-btn:focus,
 .modal-close-btn:hover .modal-icon-btn {
   fill: var(--accent-color);
 }
-.modal-close-btn:hover {
-  border-color: var(--accent-color);
-}
+
 .modal-close-btn:focus {
   outline: var(--accent-color);
   border-color: var(--accent-color);
@@ -385,7 +386,6 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
-  transition: border-color, outline 250ms var(--timing-function);
 }
 .modal-input:hover {
   border-color: var(--accent-color);
@@ -877,6 +877,7 @@ body {
   right: 28px;
   top: 50%;
   transform: translateY(-50%);
+  fill: #ffffff;
 }
 
 .footer-input {
