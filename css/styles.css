@@ -176,7 +176,6 @@ body {
 .contacts-icon {
   display: inline-block;
   margin-right: 10px;
-  fill: #000000;
 }
 
 .contacts {
@@ -742,7 +741,7 @@ body {
 
 /*---------------footer general---------------*/
 
-/*---------------buttom-logo---------------*/
+/*---------------footer-logo---------------*/
 
 .footer {
   background-color: #2f303a;
@@ -768,7 +767,7 @@ body {
   color: var(--bottom-logo-color);
 }
 
-/*---------------address---------------*/
+/*-----------footer address---------------*/
 
 .address-title {
   font-style: normal;
@@ -807,6 +806,8 @@ body {
   color: var(--accent-color);
 }
 
+/* ---footer socials--- */
+
 .footer-socials {
   margin-right: 93px;
   padding-top: 12px;
@@ -837,6 +838,13 @@ body {
 
 .footer-socials-list:not(:last-child) {
   margin-right: 10px;
+}
+
+/* ---footer form--- */
+
+.email-input {
+  display: flex;
+  margin-top: 48px;
 }
 
 .footer-form {
@@ -885,7 +893,7 @@ body {
 .form-footer {
   position: absolute;
   left: 0;
-  top: 12px;
+  top: -36px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
